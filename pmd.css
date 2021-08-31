@@ -17,7 +17,9 @@
    font-weight: normal;
    line-height: 1;
    -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale
+   -moz-osx-font-smoothing: grayscale;
+   background-color: var(--pmd-bg, inherit);
+   color: var(--pmd-color, inherit);
 }
 
 .pmd-circle:before{content:'\0041';}
