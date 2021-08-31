@@ -18,14 +18,13 @@
    line-height: 1;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-   background-color: var(--pmd-bg, inherit);
    color: var(--pmd-color, inherit);
 }
 
 .pmd-circle:before{content:'\0041';}
 .pmd-rounded:before{content:'\0042';}
 .pmd-icon:before{content:'\0043';}
-.pmd-square:before{content:'\0043'; color: white;}
+.pmd-square:before{content:'\0043'; background-color: var(--pmd-bg, #23D3D3); color: var(--pmd-color, white);}
 
 /*
 
